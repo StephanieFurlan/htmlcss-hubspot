@@ -1,0 +1,20 @@
+.header-top {
+
+}
+
+.header-global {
+   height: 100px;
+   background-color: red;
+}
+
+.header-nav {
+   height: 100px;
+   background-color: green;
+}
+
+.header-jumbotron {
+   height: 820px;
+   background-image: url("../img/jumbotron.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
