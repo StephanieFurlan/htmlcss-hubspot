@@ -1,0 +1,27 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body, button {
+   font-family: 'Nunito', sans-serif;
+   font-size: 30px;
+   line-height: 50px;
+}
+
+.middle-layer {
+   width: 80%;
+   margin: auto;
+}
+
+.custom-margin {
+   margin-bottom: 50px;
+}
+.orange-btn {
+   background-color: #ff7a59;
+   color: white;
+   border-radius: 10px;
+   border: 0;
+   padding: 20px 40px;
+}
