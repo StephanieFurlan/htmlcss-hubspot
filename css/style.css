@@ -4,10 +4,11 @@
    padding: 0;
 }
 
-body, button {
+body {
    font-family: 'Nunito', sans-serif;
    font-size: 30px;
    line-height: 50px;
+   margin-top: 100px;
 }
 
 .middle-layer {
@@ -15,13 +16,21 @@ body, button {
    margin: auto;
 }
 
-.custom-margin {
+.middle-layer::after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+.custom-margin, .orange-style-link {
    margin-bottom: 50px;
 }
-.orange-btn {
+.orange-style-link {
    background-color: #ff7a59;
    color: white;
    border-radius: 10px;
    border: 0;
    padding: 20px 40px;
+   text-decoration: none;
+   display: inline-block;
 }

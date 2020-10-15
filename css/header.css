@@ -1,15 +1,27 @@
 .header-top {
-
+   position: relative;
 }
 
 .header-global {
    height: 100px;
-   background-color: red;
+   background-color: #E8E8E8;
+   border-bottom: 1px solid gray;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
 }
 
+.left {
+   float: left;
+}
+
+.right {
+   float:right;
+}
 .header-nav {
    height: 100px;
-   background-color: green;
+   background-color: #ffffff;
 }
 
 .header-jumbotron {
