@@ -6,14 +6,13 @@
 
 body {
    font-family: 'Nunito', sans-serif;
-   font-size: 30px;
-   line-height: 50px;
-   margin-top: 100px;
+   font-size: 28px;
 }
 
 .middle-layer {
    width: 80%;
    margin: auto;
+   padding: 30px;
 }
 
 .middle-layer::after {
@@ -22,15 +21,32 @@ body {
    clear: both;
 }
 
-.custom-margin, .orange-style-link {
+.custom-margin {
    margin-bottom: 50px;
 }
+
 .orange-style-link {
    background-color: #ff7a59;
    color: white;
-   border-radius: 10px;
-   border: 0;
+}
+
+.white-style-link {
+   background-color: white;
+   color: #ff7a59;
+   border: 1px solid #ff7a59;
+}
+
+.btn-small {
+   padding: 10px 20px;
+}
+
+.btn-big {
    padding: 20px 40px;
+}
+
+.btn-small, .btn-big {
+   border-radius: 10px;
    text-decoration: none;
    display: inline-block;
+   border: 1px solid #ff7a59;
 }
