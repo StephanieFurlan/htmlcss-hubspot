@@ -6,7 +6,7 @@
 
 body {
    font-family: 'Montserrat', sans-serif;
-   font-size: 32px;
+   font-size: 16px;
 }
 
 .clearfix {
@@ -16,12 +16,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-   margin-bottom: 50px;
+   margin-bottom: 30px;
 }
 
 p {
-   margin-bottom: 50px;
-   line-height: 50px;
+   margin-bottom: 30px;
+   line-height: 30px;
 }
 
 .orange-style-link {
