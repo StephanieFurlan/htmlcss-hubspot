@@ -118,24 +118,62 @@ main {
    color: white;
    text-align: center;
 }
-.main-center .centered h2 {
+.main-center .centered > h2 {
    font-size: 60px;
+   padding-top: 50px;
 }
 
 .main-center .centered p {
    font-size: 28px;
 }
+
+.square h2 {
+   font-size: 70px;
+   margin-bottom: 30px;
+}
+
+.square span {
+   font-size: 25px;
+   display: inline-block;
+   width: 100%;
+   padding-bottom: 30px;
+}
+
+.square i {
+   font-size: 60px;
+   display: inline-block;
+   width: 100%;
+   padding: 30px 0;
+}
+
+.square h2:after {
+   content: "+";
+   font-size: 50px;
+}
 .row {
    width: 100%;
-   height: 400px;
+   /* height: 400px; */
 }
 
 .square {
    height: 100%;
    width: 25%;
-   border: 1px solid white;
+   border-right: 1px solid white;
    float: left;
 }
+
+.square:last-child{
+   border-right:0px;
+}
+
+.row:nth-last-of-type(odd) {
+   border-top: 1px solid white;
+}
+
+.info-numbers {
+   margin-bottom: 100px;
+}
+
 
 
 
