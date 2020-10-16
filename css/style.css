@@ -5,24 +5,23 @@
 }
 
 body {
-   font-family: 'Nunito', sans-serif;
-   font-size: 28px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 32px;
 }
 
-.middle-layer {
-   width: 80%;
-   margin: auto;
-   padding: 30px;
-}
-
-.middle-layer::after {
+.clearfix {
    content: "";
    display: table;
    clear: both;
 }
 
-.custom-margin {
+h1, h2, h3, h4, h5, h6 {
    margin-bottom: 50px;
+}
+
+p {
+   margin-bottom: 50px;
+   line-height: 50px;
 }
 
 .orange-style-link {

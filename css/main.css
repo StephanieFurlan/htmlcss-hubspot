@@ -5,7 +5,8 @@ main {
 
 .centered {
       width: 70%;
-      margin: auto;
+      margin: 0 auto;
+      padding-bottom: 50px;
 }
 
 .main-header {
@@ -19,10 +20,6 @@ main {
 .main-header img {
    display: inline-block;
    width: 30%;
-}
-
-.main-header h1 {
-   margin-bottom: 30px;
 }
 
 .card {
@@ -43,7 +40,7 @@ main {
 }
 
 .image-container {
-   margin-bottom: 50px;
+   margin-bottom: 50px
 }
 
 .card-content {
@@ -51,10 +48,6 @@ main {
    line-height: 50px;
    float: left;
    width: 65%;
-}
-
-.card-content h2 {
-   margin-bottom: 50px;
 }
 
 .card-content h3 {
@@ -65,11 +58,6 @@ main {
    color: #ff7a59;
 }
 
-.card::after {
-   content: "";
-   display: table;
-   clear: both;
-}
 
 .card-bkg {
    background-color: #ffffff;
@@ -95,17 +83,10 @@ main {
    height: 100%;
 }
 
-.cards p {
-   line-height: 50px;
-}
-
 .cards hr {
    margin: 70px 0 50px 0;
 }
 
-.cards h2, .cards h3 {
-   margin-bottom: 50px;
-}
 
 .cards i {
    color: #ff7a59;
@@ -115,10 +96,6 @@ main {
    text-align: left;
    margin-bottom: 50px;
 }
-
-
-
-
 
 .middle-col {
    float: left;
@@ -133,10 +110,31 @@ main {
    padding: 50px;
 }
 
-.cards::after {
-   content: "";
-   display: table;
-   clear: both;
+
+/* Main - numbers section */
+
+.main-center {
+   background-color: #01b9aa;
+   color: white;
+   text-align: center;
+}
+.main-center .centered h2 {
+   font-size: 60px;
+}
+
+.main-center .centered p {
+   font-size: 28px;
+}
+.row {
+   width: 100%;
+   height: 400px;
+}
+
+.square {
+   height: 100%;
+   width: 25%;
+   border: 1px solid white;
+   float: left;
 }
 
 
@@ -147,11 +145,6 @@ main {
 
 
 
-
-.main-middle {
-   background-color: #00bfa5;
-   height: 200px;
-}
 
 .main-bottom {
    background-color: #ffffff;
