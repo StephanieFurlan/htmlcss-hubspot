@@ -7,6 +7,15 @@
 body {
    font-family: 'Montserrat', sans-serif;
    font-size: 16px;
+   color: #33475B;
+}
+
+.centered {
+   width: 70%;
+   margin: 0 auto;
+   /* TO ASK WHY IF I REMOVE IT IT DISSAPEARS!!!*/
+   /* height: 100%; */
+   /* background-color: blue; */
 }
 
 .clearfix {
@@ -15,37 +24,39 @@ body {
    clear: both;
 }
 
-h1, h2, h3, h4, h5, h6 {
+a {
+   text-decoration: none;
+   color: #33475B;
+}
+
+h1, h2, h3 {
    margin-bottom: 30px;
 }
 
 p {
+   line-height: 25px;
    margin-bottom: 30px;
-   line-height: 30px;
 }
 
-.orange-style-link {
-   background-color: #ff7a59;
+a.btn-white {
+   background-color: #ffffff;
+   color: #fe775a;
+}
+
+a.btn-orange {
+   background-color: #fe775a;
    color: white;
 }
 
-.white-style-link {
-   background-color: white;
-   color: #ff7a59;
-   border: 1px solid #ff7a59;
+a.btn {
+   border: 1px solid #fe775a;
+   border-radius: 5px;
 }
 
-.btn-small {
-   padding: 10px 20px;
+a.btn-small {
+   padding: 10px;
 }
 
-.btn-big {
-   padding: 20px 40px;
-}
-
-.btn-small, .btn-big {
-   border-radius: 10px;
-   text-decoration: none;
-   display: inline-block;
-   border: 1px solid #ff7a59;
+a.btn-big {
+   padding: 20px;
 }

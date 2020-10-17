@@ -1,216 +1,56 @@
 main {
-   background-color: #e8f2f2;
    width: 100%;
+   height: 1000px;
+   background: #F4F9FD;
 }
 
-.centered {
-      width: 70%;
-      margin: 0 auto;
-      padding-bottom: 50px;
-}
-
-.main-header {
+.top-header {
    text-align: center;
-   width: 80%;
-   margin: 0 auto;
-   padding: 50px;
-   background-color: #e8f2f2;
-}
-
-.main-header img {
-   display: inline-block;
-   width: 30%;
-}
-
-.card {
-   margin-bottom: 100px;
-
-}
-
-.card-aside {
-   width: 35%;
-   float: left;
-   padding: 70px;
-   text-align: center;
-}
-
-.card .card-aside .image-container img {
-   width: 30%;
-   margin-top: 50px;
-}
-
-.image-container {
-   margin-bottom: 50px
-}
-
-.card-content {
-   padding: 70px;
-   line-height: 50px;
-   float: left;
-   width: 65%;
-}
-
-.card-content h3 {
-   margin: 25px 0;
-}
-
-.card-content i {
-   color: #ff7a59;
-}
-
-
-.card-bkg {
-   background-color: #ffffff;
-   border-radius: 10px;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.left-col {
-   float: left;
-   width: 30%;
-   padding: 50px;
-}
-
-.cards {
-   text-align: center;
-}
-
-.cards .image-container {
-   height: 200px;
-}
-
-.cards .image-container img {
-   height: 100%;
-}
-
-.cards hr {
-   margin: 70px 0 50px 0;
-}
-
-
-.cards i {
-   color: #ff7a59;
-}
-
-.cards .icon-list {
-   text-align: left;
-   margin-bottom: 50px;
-}
-
-.middle-col {
-   float: left;
-   width: 30%;
-   margin: 0 5%;
-   padding: 50px;
-}
-
-.right-col {
-   float: right;
-   width: 30%;
-   padding: 50px;
-}
-
-
-/* Main - numbers section */
-
-.main-center {
-   background-color: #01b9aa;
-   color: white;
-   text-align: center;
-}
-.main-center .centered > h2 {
-   font-size: 30px;
-   padding-top: 50px;
-}
-
-
-.square h2 {
-   font-size: 50px;
-   margin-bottom: 30px;
-}
-
-.square span {
-   display: inline-block;
-   width: 100%;
-   padding-bottom: 30px;
-}
-
-.square i {
-   font-size: 60px;
-   display: inline-block;
-   width: 100%;
    padding: 30px 0;
 }
 
-.square h2:after {
-   content: "+";
-   font-size: 50px;
-}
-.row {
-   width: 100%;
+.top-header img {
+   width: 30%;
 }
 
-.square {
-   height: 100%;
-   width: 25%;
-   border-right: 1px solid white;
+.top-header h2 {
+   font-size: 32px;
+}
+
+.card-aside {
+   width: 30%;
    float: left;
+   text-align: center;
 }
 
-.square:last-child{
-   border-right:0px;
+.card-aside img {
+   width: 40%;
+   margin-bottom: 30px;
 }
 
-.row:nth-last-of-type(odd) {
-   border-top: 1px solid white;
+.card-aside a {
+   padding-left: 30px;
+   padding-right: 30px;
 }
 
-.info-numbers {
-   margin-bottom: 100px;
-}
-
-/* MAIN BOTTOM */
-
-.centered-60 {
-   width: 60%;
-   margin: 0 auto;
-   padding: 50px 0px;
-}
-
-.customers {
-   float: left;
-   width: 20%;
-}
-
-.customers h2 {
-   font-size: 50px;
-}
-
-
-.list-logo {
+.card-content {
+   width: 70%;
    float: right;
-   width: 60%;
 }
 
-.row-logo {
+.card-content i {
+   color: #fe775a;
+}
+
+.card-content span {
+   padding: 0 10px;
+}
+
+.card-bkg {
+   background-color: #ffffff;
+   border-radius: 5px;
+   /* TO CHANGE!!!!!!!!!! */
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    width: 100%;
-   height: 60px;
-}
-
-.logo {
-   float: left;
-   border: 1px solid black;
-   width: 25%;
-}
-
-.logo img {
-   width: 100%;
-   height: auto;
-}
-
-
-
-.main-bottom .centered {
-   background: blue;
-   height: 100px;
+   padding: 60px 40px;
 }
