@@ -1,4 +1,4 @@
-main-top {
+main-top, main-bottom {
    width: 100%;
    background: #F4F9FD;
 }
@@ -96,6 +96,10 @@ main-top {
    text-align: center;
    padding: 50px 0;
 }
+.main-middle h2 {
+   font-size: 32px;
+}
+
 .row {
    width: 100%;
 }
@@ -111,28 +115,20 @@ main-top {
 .square:last-child{
    border-right: 0px;
 }
-
 .square img {
    display: inline-block;
    height: 30px;
    margin: 15px 0;
 }
-
-.main-middle h2 {
-   font-size: 32px;
-}
-
 .square h2 {
    font-size: 40px;
    margin-bottom: 15px;
 }
-
 .square p {
    font-size: 12px;
    margin-bottom: 15px;
 }
-
-.main-middle h2 i {
+.square i {
    font-size: 16px;
    line-height: 16px;
    vertical-align: middle;
@@ -140,4 +136,55 @@ main-top {
 
 .info-numbers {
    padding: 40px 0;
+}
+
+/* Corpo pagina - sezione con immagine donna */
+.main-bottom-top {
+   width: 90%;
+   margin: 0 auto;
+   margin-top: 50px;
+}
+
+.customers {
+   float: left;
+   width: 20%;
+}
+.customers h2 {
+   font-size: 42px;
+}
+
+/* .row-logo {
+   width: 100%;
+} */
+
+.list-logo {
+   float: right;
+   width: 60%;
+}
+
+.logo {
+   float: left;
+   width: 25%;
+}
+
+.logo img {
+   height: 70px;
+   object-fit:scale-down;
+   /* height: auto; */
+}
+
+#bottom-box {
+   float: left;
+}
+
+#bottom-box h2 {
+   float: left;
+   font-size: 32px;
+}
+
+.main-bottom-bottom img {
+   float: right;
+   width: 30%;
+   padding-top: 30px;
+
 }

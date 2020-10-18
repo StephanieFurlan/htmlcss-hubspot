@@ -120,13 +120,12 @@
    padding-top: 60px;
 }
 
+.box h1 {
+   font-size: 48px;
+}
 .box a {
    display: inline-block;
    margin-bottom: 30px;
-}
-
-.box.main-box h1 {
-   font-size: 48px;
 }
 
 .box p:last-child {
