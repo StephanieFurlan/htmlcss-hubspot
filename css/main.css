@@ -32,17 +32,10 @@
    width: 70%;
 }
 
-/* .card-content i {
-   color: #fe775a;
-}
-.card-content span {
-   padding: 0 10px;
-} */
-
-.x h3{
+#card-special-title h3 {
    display: inline-block;
 }
-.x hr{
+#card-special-title hr {
    margin-left: 40px;
    display: inline-block;
    width: 60%;
@@ -107,6 +100,10 @@
    padding: 0 10px;
 }
 
+#inline-icon-list li span:before{
+   content: "\00a0 ";
+}
+
 /* Corpo pagina - sezione blu */
 
 #main-middle {
@@ -119,6 +116,9 @@
    font-size: 32px;
 }
 
+.row {
+   width: 100%;
+}
 .row:nth-last-of-type(odd) {
    border-top: 1px solid white;
 }
@@ -152,6 +152,7 @@
 
 .info-numbers {
    padding: 40px 0;
+   width: 100%;
 }
 
 /* Corpo pagina - sezione con immagine donna */

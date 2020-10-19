@@ -4,7 +4,7 @@ footer {
 }
 
 
-.footer-bottom {
+#footer-bottom {
    margin-top: 80px;
 }
 
@@ -45,6 +45,10 @@ footer {
    font-size: 24px;
 }
 
+#footer-top {
+   width: 100%;
+}
+
 #languages {
    list-style: none;
    text-align: center;
@@ -55,10 +59,13 @@ footer {
    padding: 0 20px;
 }
 
-.footer-bottom hr {
+#footer-bottom hr {
    margin: 30px 0;
 }
 
+#footer-end {
+   width: 100%;
+}
 #copyright {
    float: left;
 }
