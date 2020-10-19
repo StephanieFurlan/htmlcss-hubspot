@@ -84,4 +84,21 @@ footer {
 
 #privacy ul li{
    display: inline-block;
+   padding-left: 30px;
+}
+
+#spanish:after {
+    content: '\00F5';
+}
+
+#chineese:after {
+    content: '日本語';
+}
+
+#portugeese:after {
+    content: '\00EA';
+}
+
+#french:after {
+    content: '\00E7';
 }

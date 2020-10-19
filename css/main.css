@@ -57,7 +57,7 @@ main-top, main-bottom {
 
 }
 .cards img {
-   display: inline-inline-block;
+   display: inline-block;
    height: 100px;
    margin-bottom: 30px;
 }
