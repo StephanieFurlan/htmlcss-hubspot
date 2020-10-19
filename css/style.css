@@ -13,21 +13,13 @@ body {
 .centered {
    width: 70%;
    margin: 0 auto;
-   /* TO ASK WHY IF I REMOVE IT IT DISSAPEARS!!!*/
-   /* height: 100%; */
-   /* background-color: blue; */
 }
 
 .clearfix {
    content: "";
    display: table;
    clear: both;
-   /* width: 100%; */
-}
-
-a {
-   text-decoration: none;
-   color: #33475B;
+   width: 100%;
 }
 
 h1, h2, h3 {
@@ -39,26 +31,26 @@ p {
    margin-bottom: 30px;
 }
 
+a {
+   text-decoration: none;
+   color: #33475B;
+}
 a.btn-white {
    background-color: #ffffff;
    color: #fe775a;
 }
-
 a.btn-orange {
    background-color: #fe775a;
    color: white;
 }
-
 a.btn {
    font-size: 12px;
    border: 1px solid #fe775a;
    border-radius: 5px;
 }
-
 a.btn-small {
    padding: 10px;
 }
-
 a.btn-big {
    padding: 20px 40px;
 }

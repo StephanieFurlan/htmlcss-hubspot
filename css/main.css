@@ -1,7 +1,3 @@
-main-top, main-bottom {
-   width: 100%;
-   background: #F4F9FD;
-}
 
 /* Corpo pagina - Intestazione */
 .main-top-header {
@@ -47,7 +43,6 @@ main-top, main-bottom {
    border-radius: 5px;
    margin-bottom: 30px;
    box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
-   width: 100%;
    padding: 30px 30px 40px 30px;
 }
 
@@ -91,19 +86,16 @@ main-top, main-bottom {
 
 /* Corpo pagina - sezione blu */
 
-.main-middle {
+#main-middle {
    background-image: linear-gradient(to right, #01AAB8 , #00BAA9);
    color: #ffffff;
    text-align: center;
    padding: 50px 0;
 }
-.main-middle h2 {
+#main-middle h2 {
    font-size: 32px;
 }
 
-.row {
-   width: 100%;
-}
 .row:nth-last-of-type(odd) {
    border-top: 1px solid white;
 }
@@ -140,7 +132,7 @@ main-top, main-bottom {
 }
 
 /* Corpo pagina - sezione con immagine donna */
-.main-bottom-top {
+#main-bottom-top {
    width: 90%;
    margin: 0 auto;
    margin-top: 50px;
@@ -154,10 +146,6 @@ main-top, main-bottom {
    font-size: 42px;
 }
 
-/* .row-logo {
-   width: 100%;
-} */
-
 .list-logo {
    float: right;
    width: 60%;
@@ -167,27 +155,24 @@ main-top, main-bottom {
    float: left;
    width: 25%;
 }
-
 .logo img {
    height: 70px;
    object-fit:scale-down;
-   /* height: auto; */
 }
 
-.main-bottom-bottom {
+#main-bottom-bottom {
    margin-bottom: 30px;
 }
-#bottom-box {
-   float: left;
-}
-
-#bottom-box h2 {
-   float: left;
-   font-size: 32px;
-}
-
-.main-bottom-bottom img {
+#main-bottom-bottom img {
    float: right;
    width: 30%;
    padding-top: 30px;
+}
+
+#bottom-box {
+   float: left;
+}
+#bottom-box h2 {
+   float: left;
+   font-size: 32px;
 }
