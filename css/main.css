@@ -97,11 +97,10 @@
 
 #inline-icon-list li {
    display: inline-block;
-   padding: 0 10px;
 }
 
-#inline-icon-list li span:before{
-   content: "\00a0 ";
+#inline-icon-list li span{
+   padding: 0 10px;
 }
 
 /* Corpo pagina - sezione blu */
