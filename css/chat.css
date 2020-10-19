@@ -1,9 +1,46 @@
-.chat {
+#chat {
    width: 200px;
-   height: 200px;
-   background-color: red;
    position: fixed;
-   bottom: 0;
-   right: 0;
+   bottom: 2%;
+   right: 2%;
    z-index: 3;
+}
+#chat-text {
+   font-size: 12px;
+   padding: 20px 10px;
+   margin: 0;
+}
+
+#robot-img {
+   height: 50px;
+   width: 50px;
+   position: absolute;
+   left: 50%;
+   top: 0;
+   transform: translate(-50%, -50%);
+   border-radius: 50%;
+}
+
+#esc {
+   position: absolute;
+   right: 5px;
+   top: 5px;
+}
+
+#chat-text p {
+   margin-bottom: 0;
+}
+
+#chat-icon {
+   text-align: right;
+
+}
+
+#chat-icon i {
+   font-size: 38px;
+   padding: 12px;
+   color: #32495c;
+   border-radius: 50%;
+   background-color: white;
+   margin-top: 10px;
 }
