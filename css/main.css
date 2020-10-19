@@ -50,7 +50,6 @@
 /* Corpo pagina - Tre cards in colonna */
 .cards {
    text-align: center;
-
 }
 .cards img {
    display: inline-block;
@@ -87,6 +86,7 @@
 .icon-list li::before {
    font-family: "Font Awesome 5 Free";
    color: #fe775a;
+   font-weight: 900;
    content: "\f058";
 }
 
