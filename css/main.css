@@ -54,6 +54,7 @@ main-top, main-bottom {
 /* Corpo pagina - Tre cards in colonna */
 .cards {
    text-align: center;
+
 }
 .cards img {
    display: inline-inline-block;
