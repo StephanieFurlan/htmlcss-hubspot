@@ -45,6 +45,10 @@ footer {
    font-size: 24px;
 }
 
+.icons a {
+   color: inherit;
+}
+
 #footer-top {
    width: 100%;
 }
@@ -82,11 +86,18 @@ footer {
    text-decoration: none;
 }
 
-#privacy ul li{
+#privacy ul li {
    display: inline-block;
    padding-left: 30px;
 }
 
+#privacy ul li a {
+   color: inherit;
+}
+
+#languages li a {
+   color: inherit;
+}
 #spanish:after {
     content: '\00F5';
 }
