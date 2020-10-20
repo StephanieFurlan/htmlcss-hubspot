@@ -1,3 +1,4 @@
+/* --ROBOT CHAT--*/
 #chat {
    width: 200px;
    position: fixed;
@@ -34,7 +35,6 @@
 #chat-icon {
    text-align: right;
 }
-
 #chat-icon i {
    font-size: 38px;
    padding: 12px;
@@ -43,3 +43,5 @@
    background-color: white;
    margin-top: 10px;
 }
+
+/* --/ROBOT CHAT--*/

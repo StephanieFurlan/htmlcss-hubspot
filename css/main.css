@@ -1,5 +1,5 @@
 
-/* Corpo pagina - Intestazione */
+/* --CORPO PAGINA - INTESTAZIONE-- */
 .main-top-header {
    text-align: center;
    padding: 30px 0;
@@ -11,7 +11,9 @@
    font-size: 32px;
 }
 
-/* Corpo pagina - Card orrizontale */
+/* --/CORPO PAGINA - INTESTAZIONE-- */
+
+/* --CORPO PAGINA - CARD ORIZZONTALE-- */
 #horizontal-card {
    padding: 60px;
 }
@@ -52,7 +54,9 @@
    padding: 30px 30px 40px 30px;
 }
 
-/* Corpo pagina - Tre cards in colonna */
+/* --/CORPO PAGINA - CARD ORIZZONTALE-- */
+
+/* --CORPO PAGINA - TRE CARDS IN COLONNE-- */
 .cards {
    text-align: center;
 }
@@ -103,8 +107,9 @@
    padding: 0 10px;
 }
 
-/* Corpo pagina - sezione blu */
+/* --/CORPO PAGINA - TRE CARDS IN COLONNE-- */
 
+/* --CORPO PAGINA - SEZIONE BLU-- */
 #main-middle {
    background-image: linear-gradient(to right, #01AAB8 , #00BAA9);
    color: #ffffff;
@@ -154,7 +159,9 @@
    width: 100%;
 }
 
-/* Corpo pagina - sezione con immagine donna */
+/* --/CORPO PAGINA - SEZIONE BLU-- */
+
+/* --CORPO PAGINA - SEZIONE CON IMMAGINE DONNA-- */
 #main-bottom-top {
    width: 90%;
    margin: 0 auto;
@@ -199,3 +206,5 @@
    float: left;
    font-size: 32px;
 }
+
+/* --/CORPO PAGINA - SEZIONE CON IMMAGINE DONNA-- */
